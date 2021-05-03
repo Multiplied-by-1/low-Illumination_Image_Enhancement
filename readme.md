@@ -1,3 +1,4 @@
+# Currently, it is not the complete version. All the code will be available soon!
 # Conventional Methods for Low-Illumination Image Enhancement
 This project is the Python implementation of
 several conventional methods for processing
@@ -94,9 +95,9 @@ python main.py --method LIME --img_path ./tasks/3.bmp
 
 ## Some Results
 ### (1) Images without references
-Original Image  <div style="width: 100pt">           |  <div style="width: 100pt">Histogram Equalization  | <div style="width: 100pt"> Gamma Correction | <div style="width: 100pt">Gray World |<div style="width: 100pt"> Retinex-SSR |<div style="width: 100pt"> Retinex-MSR) |<div style="width: 100pt"> Max RGB |<div style="width: 100pt"> DeHaze| <div style="width: 100pt">LIME |
+ Original Image<div style="width: 100pt">            |  <div style="width: 100pt">Histogram Equalization  | <div style="width: 100pt"> Gamma Correction | <div style="width: 100pt">Gray World |<div style="width: 100pt"> Retinex-SSR |<div style="width: 100pt"> Retinex-MSR) |<div style="width: 100pt"> Max RGB |<div style="width: 100pt"> DeHaze| <div style="width: 100pt">LIME |
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
- ![](tasks/3.bmp) |  ![](show/nonref_HE.png)|![](show/nonref_Gamma.png) |![](show/nonref_Gray_World.png)|![](show/nonref_SSR.png)|![](show/nonref_MSR.png)|![](show/nonref_Max_RGB.png)|![](show/nonref_DeHaze.png)|![](show/nonref_LIME.png)
+ ![](tasks/3.bmp)<div style="width: 100pt"> |  ![](show/nonref_HE.png)|![](show/nonref_Gamma.png) |![](show/nonref_Gray_World.png)|![](show/nonref_SSR.png)|![](show/nonref_MSR.png)|![](show/nonref_Max_RGB.png)|![](show/nonref_DeHaze.png)|![](show/nonref_LIME.png)
 **Entropy**  | 611.1124983690238 | 730.3816309833028 | 706.263281421345 |636.036593322102|585.1020636647495| 654.0260442891583|657.5397980870036|742.1913111124674
 **EME**  | 15.305165514970348 | 9.420615924178865 |  9.592785267042633 |4.0243145405342675|3.0018271371980196|7.566815617221303|13.392978947612137|13.100082303554595
 

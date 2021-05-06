@@ -10,7 +10,7 @@ the inherent information of images.
 
 This project also include **Color Histogram** for each image.
 
-###*Methods:* 
+### *Methods:* 
 * (1) Histogram Equalization; 
 * (2) Gamma Correction;
 * (3) Gray World;
@@ -19,12 +19,12 @@ This project also include **Color Histogram** for each image.
 * (6) DeHaze; [[LINK](https://ieeexplore.ieee.org/document/6012107)]
 * (7) LIME; [[LINK](https://ieeexplore.ieee.org/abstract/document/7782813)]
 
-###*Data:* 
+### *Data:* 
 * LIME dataset: 10 images
 * LOL dataset [[LINK](https://daooshee.github.io/BMVC2018website/)]: 15 images are used here  
   You can run this project on your own images
 
-###*Evaluation Indicators:* 
+### *Evaluation Indicators:* 
 With references: PSNR, SSIM, MAE  
 Without references:  Entropy, EME [[LINK](https://ieeexplore.ieee.org/document/908502)]
 
